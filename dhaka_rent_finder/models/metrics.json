@@ -1,0 +1,56 @@
+{
+  "best": "Linear (Ridge)",
+  "n_listings": 3997,
+  "test_metrics": {
+    "Linear (Ridge)": {
+      "MAE_BDT": 4358,
+      "RMSE_BDT": 6224,
+      "R2_log": 0.8901,
+      "MAPE_%": 15.1,
+      "within_20%": 71.2,
+      "train_seconds": 0.1
+    },
+    "Random Forest": {
+      "MAE_BDT": 4909,
+      "RMSE_BDT": 7326,
+      "R2_log": 0.8505,
+      "MAPE_%": 16.8,
+      "within_20%": 64.6,
+      "train_seconds": 1.1
+    },
+    "XGBoost": {
+      "MAE_BDT": 4687,
+      "RMSE_BDT": 6940,
+      "R2_log": 0.8711,
+      "MAPE_%": 16.2,
+      "within_20%": 68.4,
+      "train_seconds": 1.3
+    }
+  },
+  "block_holdout_metrics": {
+    "Linear (Ridge)": {
+      "MAE_BDT": 4376,
+      "RMSE_BDT": 6361,
+      "R2_log": 0.8894,
+      "MAPE_%": 15.1,
+      "within_20%": 71.4,
+      "train_seconds": 0.1
+    },
+    "Random Forest": {
+      "MAE_BDT": 5184,
+      "RMSE_BDT": 8599,
+      "R2_log": 0.8499,
+      "MAPE_%": 16.9,
+      "within_20%": 65.4,
+      "train_seconds": 1.2
+    },
+    "XGBoost": {
+      "MAE_BDT": 4685,
+      "RMSE_BDT": 7037,
+      "R2_log": 0.8764,
+      "MAPE_%": 15.9,
+      "within_20%": 68.5,
+      "train_seconds": 1.3
+    }
+  }
+}

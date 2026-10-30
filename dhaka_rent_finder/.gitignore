@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/rent.db
+data/rent.db-wal
+data/rent.db-shm
+data/osm_cache/
+data/landmarks.backup.csv
+data/form_responses.csv
+models/*.joblib

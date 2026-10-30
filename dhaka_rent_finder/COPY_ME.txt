@@ -1,0 +1,3 @@
+Copy everything in this folder into your project folder (house_rent_system).
+Say YES when Windows asks to replace app.py and ui.py.
+Then run:  python -m streamlit run app.py
